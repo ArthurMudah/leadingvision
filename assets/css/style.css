@@ -58,6 +58,15 @@ section{
     background-size: cover !important;
 }
 
+.bg-text h1{
+    letter-spacing: 12px !important;
+    font-size: 90px !important;
+    color: #09ff00;
+    opacity: 0.2;
+}
+.front_view_cover{
+    height: 50vh !important;
+}
 .top{
     justify-items: center;
     position: relative;
@@ -585,6 +594,10 @@ color: white !important;
     color: #092032;
 }
 
+.d_spans{
+    color: #00cc33 !important;
+}
+
 .blog-post small {
     color: #00cc33;
     font-weight: 500;
@@ -760,7 +773,7 @@ margin-bottom: 400px;
 /* CONTACT */
 
 .contact-details{
-    padding: 10px 0;
+    padding: 10px 10px;
     margin:8px;
 }
 .contact-info .content{
@@ -1016,7 +1029,32 @@ footer{
 
 
 @media (max-width: 760px){
+    .slide1{ 
+        background: linear-gradient(hsla(206, 69%, 12%, 0.301), hsla(206, 69%, 12%, 0.301)), url(../img/DSC02418.JPG);
+        object-fit: fill;
+         min-height: 50vh !important;
+    }
     
+    .slide2{ 
+        background: linear-gradient(hsla(206, 69%, 12%, 0.301), hsla(206, 69%, 12%, 0.301)), url(../img/DSC02660.JPG);
+        object-fit: fill;
+         min-height: 50vh !important;
+    }
+    
+    .slide3{ 
+        background: linear-gradient(hsla(206, 69%, 12%, 0.301), hsla(206, 69%, 12%, 0.301)), url(../img/DSC02663.JPG);
+        object-fit: fill;
+         min-height: 50vh !important;
+    }
+    
+    .bg-text h1{
+        justify-self: center !important;
+        letter-spacing: 12px !important;
+      
+        color: #09ff00;
+        opacity: 0.2;
+    }
+
 section{
     padding-top: 20px;
     padding-bottom: 80px;
