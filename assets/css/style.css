@@ -591,7 +591,9 @@ color: white !important;
 
 }
 .blog-text{
-    color: #092032;
+    /* color: #092032; */
+    color: green;
+    opacity: 0.5;
 }
 
 .d_spans{
