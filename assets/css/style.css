@@ -276,19 +276,19 @@ color: rgb(0, 255, 34) ;
     font-size: 30px;
 }
 .slide1{ 
-    background: linear-gradient(hsla(206, 69%, 12%, 0.301), hsla(206, 69%, 12%, 0.301)), url(../img/DSC02418.JPG);
+    background: linear-gradient(hsla(153, 70%, 12%, 0.801), hsla(206, 69%, 12%, 0.501)), url(../img/DSC02418.JPG);
     object-fit: fill;
      min-height: 70vh !important;
 }
 
 .slide2{ 
-    background: linear-gradient(hsla(206, 69%, 12%, 0.301), hsla(206, 69%, 12%, 0.301)), url(../img/DSC02660.JPG);
+    background: linear-gradient(hsla(206, 69%, 12%, 0.801), hsla(206, 69%, 12%, 0.301)), url(../img/DSC02660.JPG);
     object-fit: fill;
      min-height: 70vh !important;
 }
 
 .slide3{ 
-    background: linear-gradient(hsla(206, 69%, 12%, 0.301), hsla(206, 69%, 12%, 0.301)), url(../img/DSC02663.JPG);
+    background: linear-gradient(hsla(206, 69%, 12%, 0.801), hsla(206, 69%, 12%, 0.301)), url(../img/DSC02663.JPG);
     object-fit: fill;
      min-height: 70vh !important;
 }
@@ -298,6 +298,9 @@ color: rgb(0, 255, 34) ;
     letter-spacing: 10px;
 }
 
+.slide_text{
+    opacity: 0.7 !important;
+}
 /* ABOUT US */
 
 .about-text{
@@ -773,6 +776,9 @@ margin-bottom: 400px;
 }
 
 /* CONTACT */
+.content {
+    margin: 12px !important;
+}
 
 .contact-details{
     padding: 10px 10px;
@@ -782,6 +788,7 @@ margin-bottom: 400px;
     position: relative;
     align-items: start;
     margin-left: 0;
+    margin: auto;
 }
 
 .contact-info .content i {
@@ -1032,29 +1039,39 @@ footer{
 
 @media (max-width: 760px){
     .slide1{ 
-        background: linear-gradient(hsla(206, 69%, 12%, 0.301), hsla(206, 69%, 12%, 0.301)), url(../img/DSC02418.JPG);
+        background: linear-gradient(hsla(206, 69%, 12%, 0.801), hsla(206, 69%, 12%, 0.301)), url(../img/DSC02418.JPG);
         object-fit: fill;
          min-height: 50vh !important;
     }
     
     .slide2{ 
-        background: linear-gradient(hsla(206, 69%, 12%, 0.301), hsla(206, 69%, 12%, 0.301)), url(../img/DSC02660.JPG);
+        background: linear-gradient(hsla(206, 69%, 12%, 0.801), hsla(206, 69%, 12%, 0.301)), url(../img/DSC02660.JPG);
         object-fit: fill;
          min-height: 50vh !important;
     }
     
     .slide3{ 
-        background: linear-gradient(hsla(206, 69%, 12%, 0.301), hsla(206, 69%, 12%, 0.301)), url(../img/DSC02663.JPG);
+        background: linear-gradient(hsla(206, 69%, 12%, 0.801), hsla(206, 69%, 12%, 0.301)), url(../img/DSC02663.JPG);
         object-fit: fill;
          min-height: 50vh !important;
     }
     
+    .h-page-text{
+        color: #00cc33 !important;
+        letter-spacing: 1px;
+    }
     .bg-text h1{
         justify-self: center !important;
         letter-spacing: 12px !important;
-      
+        font-size: 50px !important;
+        margin-top: 120px !important;
         color: #09ff00;
         opacity: 0.2;
+    }
+
+    .slide_text{
+        opacity: 0.7 !important;
+        font-size: 22px;
     }
 
 section{
