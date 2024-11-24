@@ -682,6 +682,10 @@ margin-bottom: 400px;
 
 
 }
+.G-text h1{
+    font-size: 7rem !important;
+    color: #00cc33;
+}
 .gallery-img .img-wrapper img{
     height: 100%; 
     width: 100%;
